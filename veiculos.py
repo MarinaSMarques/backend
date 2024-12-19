@@ -13,7 +13,7 @@ Base = declarative_base()
 
 
 class Veiculo(Base):
-    __tablename__ = "veiculos"
+    __tableveiculos__ = "veiculos"
 
     id = Column(Integer, primary_key=True, index=True)
     nome = Column(String(80), unique=True, index=True, nullable=False)
